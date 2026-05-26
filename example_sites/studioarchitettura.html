@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atelier - Studio di Architettura</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:'Inter',sans-serif;background:#1a1a19;color:#fff;overflow-x:hidden;-webkit-font-smoothing:antialiased}header{position:fixed;width:100%;padding:40px;display:flex;justify-content:space-between;z-index:1000;font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#fff;background:linear-gradient(to bottom, rgba(0,0,0,0.5),transparent)}.logo{font-family:'Cormorant Garamond',serif;font-size:24px;letter-spacing:1px}.hero-video-bg{height:100vh;background:linear-gradient(rgba(0,0,0,.35),#1a1a19),url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c") center/cover no-repeat;background-attachment:fixed;display:flex;align-items:center;padding:0 10%}.hero-video-bg h1{font-family:'Cormorant Garamond',serif;font-size:clamp(40px,7vw,80px);font-weight:400;line-height:1;letter-spacing:-1px}.hero-video-bg h1 span{font-style:italic;color:#d4ceb8;display:block;padding-left:10%}.reveal{opacity:0;transform:translateY(35px);will-change:transform,opacity;transition:1.2s cubic-bezier(0.16,1,0.3,1)}.reveal.active{opacity:1;transform:translateY(0)}.white-wrap{background:#fff;color:#1a1a19;border-radius:30px 30px 0 0;padding:140px 10%;position:relative;z-index:10}.project-intro{max-width:700px;font-family:'Cormorant Garamond',serif;font-size:36px;line-height:1.4;font-style:italic;margin-bottom:120px;color:#444}.arch-row{display:flex;gap:80px;align-items:center;margin-bottom:140px}.arch-row:nth-child(even){flex-direction:row-reverse}.arch-img-box{width:55%;overflow:hidden}.arch-img-box img{width:100%;height:550px;object-fit:cover;transition:transform 1.2s cubic-bezier(0.16,1,0.3,1)}.arch-row:hover .arch-img-box img{transform:scale(1.04)}.arch-desc-box{width:45%}.arch-desc-box span{font-size:11px;letter-spacing:2px;color:#888;text-transform:uppercase}.arch-desc-box h3{font-family:'Cormorant Garamond',serif;font-size:38px;margin:15px 0;font-weight:400;line-height:1.1;color:#1a1a19}.arch-desc-box p{font-size:15px;color:#555;line-height:1.7}.materials-section{padding:100px 0;border-top:1px solid #eee;display:grid;grid-template-columns:repeat(3,1fr);gap:40px}.mat-card{padding:10px}.mat-card h4{font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:400;margin-bottom:15px;color:#1a1a19}.mat-card p{font-size:14px;color:#666;line-height:1.6}.dark-contact{background:#1a1a19;color:#fff;padding:140px 10% 100px 10%;position:relative;z-index:11;display:flex;flex-direction:column;align-items:center;text-align:center}.dark-contact h2{font-family:'Cormorant Garamond',serif;font-size:50px;font-weight:400;margin-bottom:40px;letter-spacing:0.5px}form{width:100%;max-width:460px;display:flex;flex-direction:column;gap:35px;text-align:left}input,textarea{background:transparent;border:none;border-bottom:1px solid #333;padding:15px 0;color:#fff;font-family:inherit;font-size:15px;transition:.3s}input:focus,textarea:focus{outline:none;border-bottom-color:#fff}textarea{min-height:90px;resize:none}form button{align-self:center;background:#fff;color:#1a1a19;border:none;padding:16px 45px;font-size:11px;letter-spacing:2px;text-transform:uppercase;cursor:pointer;font-weight:600;transition:.3s}form button:hover{background:#d4ceb8}footer{background:#111110;color:#555;padding:50px 10%;font-size:12px;letter-spacing:1px;display:flex;justify-content:space-between;align-items:center;position:relative;z-index:12;border-top:1px solid #222}footer a{transition:.3s}footer a:hover{color:#fff}@media(max-width:900px){.arch-row,.materials-section{grid-template-columns:1fr;flex-direction:column!important;gap:40px}.arch-img-box,.arch-desc-box{width:100%}.arch-img-box img{height:350px}footer{flex-direction:column;gap:20px;text-align:center}}
+</style>
+</head>
+<body>
+<header><div class="logo">ATELIER</div><div>STUDIO ARCHITETTURA</div></header>
+<section class="hero-video-bg"><h1>L'essenza dello spazio,<span>disegnata dalla luce.</span></h1></section>
+<div class="white-wrap">
+<p class="project-intro reveal">"Sottraiamo il superfluo per fare spazio all'emozione. La nostra architettura vive nel dialogo costante tra purezza geometrica e calore materico."</p>
+<div class="arch-row reveal"><div class="arch-img-box"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Villa"></div><div class="arch-desc-box"><span>01 / Progetto Residenziale</span><h3>The Minimalist Concrete Villa</h3><p>Un'opera scultorea integrata nella roccia lacustre. Cemento grezzo a vista dialoga con immense vetrate strutturali per rendere il paesaggio un elemento d'arredo vivo.</p></div></div>
+<div class="arch-row reveal"><div class="arch-img-box"><img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6" alt="Attico"></div><div class="arch-desc-box"><span>02 / Interior Design</span><h3>The Oak Penthouse</h3><p>Ristrutturazione d'alto livello a Milano. Spazi fluidi dominati dall'uso monomaterico del rovere spazzolato e dettagli strutturali in ferro brunito artigianale.</p></div></div>
+<h2 class="reveal" style="font-family:'Cormorant Garamond',serif; font-size:38px; font-weight:400; margin:80px 0 40px 0; color:#1a1a19;">La Materia al Centro</h2>
+<div class="materials-section"><div class="mat-card reveal"><h4>Luce Naturale</h4><p>Progettiamo gli orientamenti per catturare i raggi solari come elemento architettonico intangibile e mutevole durante la giornata.</p></div><div class="mat-card reveal"><h4>Cemento e Pietra</h4><p>Finiture solide e strutturali lasciate alla loro purezza originaria, destinate a invecchiare con dignità nel corso del tempo.</p></div><div class="mat-card reveal"><h4>Legno Nobile</h4><p>Essenze naturali trattate esclusivamente a olio per preservare l'esperienza tattile e olfattiva profonda degli ambienti.</p></div></div>
+</div>
+<section class="dark-contact reveal"><h2>Diamo Forma alla Visione</h2><form action="#" method="POST"><input type="text" placeholder="Nome e Cognome" required><input type="email" placeholder="Contatto Email" required><textarea placeholder="Descrivi brevemente l'immobile o il progetto..." required></textarea><button type="submit">Inizia il dialogo</button></form></section>
+<footer><span>© 2026 ATELIER ARCHITETTURA. TUTTI I DIRITTI RISERVATI.</span><span>MILANO / TOKYO</span></footer>
+<script>
+const obs=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('active');obs.unobserve(e.target)}})},{threshold:0.05});document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+</script>
+<style>
+.dv-popup-overlay{position:fixed;inset:0;background:rgba(26,26,25,.78);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);display:flex;align-items:center;justify-content:center;z-index:99999;opacity:0;visibility:hidden;transition:.45s;padding:24px}
+.dv-popup-overlay.active{opacity:1;visibility:visible}
+.dv-popup{width:100%;max-width:560px;background:#1a1a19;border-radius:24px;overflow:hidden;position:relative;border:1px solid rgba(212,206,184,.18);box-shadow:0 30px 90px rgba(0,0,0,.55);transform:translateY(40px) scale(.92);transition:.45s cubic-bezier(.16,1,.3,1)}
+.dv-popup-overlay.active .dv-popup{transform:translateY(0) scale(1)}
+.dv-popup-bar{height:4px;background:linear-gradient(90deg,#d4ceb8,#ffffff33)}
+.dv-popup-close{position:absolute;top:16px;right:16px;width:42px;height:42px;border:none;border-radius:50%;background:rgba(212,206,184,.12);color:#d4ceb8;font-size:22px;cursor:pointer;transition:.35s;font-family:'Inter',sans-serif}
+.dv-popup-close:hover{background:#d4ceb8;color:#1a1a19;transform:rotate(90deg)}
+.dv-popup-content{padding:56px 40px 38px;text-align:center}
+.dv-popup-badge{display:inline-block;padding:8px 16px;border-radius:40px;background:rgba(212,206,184,.12);border:1px solid rgba(212,206,184,.22);color:#d4ceb8;font-size:11px;font-weight:500;letter-spacing:2px;text-transform:uppercase;margin-bottom:24px;font-family:'Inter',sans-serif}
+.dv-popup-title{font-family:'Cormorant Garamond',serif;font-size:clamp(34px,5vw,48px);font-weight:400;line-height:1.1;color:#fff;margin-bottom:18px}
+.dv-popup-text{font-size:16px;line-height:1.8;color:#d6d6d6;font-weight:300;margin-bottom:22px;font-family:'Inter',sans-serif}
+.dv-popup-note{font-size:13px;line-height:1.7;color:#9a9a9a;font-family:'Inter',sans-serif}
+@media(max-width:600px){.dv-popup-content{padding:50px 24px 30px}.dv-popup-title{font-size:34px}.dv-popup-text{font-size:15px}}
+</style>
+
+<div class="dv-popup-overlay" id="dvPopup">
+  <div class="dv-popup">
+    <div class="dv-popup-bar"></div>
+    <button class="dv-popup-close" id="dvPopupClose">×</button>
+    <div class="dv-popup-content">
+      <div class="dv-popup-badge">Informazione Tecnica</div>
+      <h2 class="dv-popup-title">Avviso</h2>
+      <p class="dv-popup-text">Questo sito è solamente un esempio dimostrativo realizzato a scopo illustrativo.</p>
+      <div class="dv-popup-note">Il produttore si astiene dall’utilizzare intenzionalmente brand, marchi o riferimenti reali.</div>
+    </div>
+  </div>
+</div>
+
+<script>
+(()=>{const p=document.getElementById("dvPopup"),b=document.getElementById("dvPopupClose"),c=()=>{p.classList.remove("active");document.body.style.overflow=""};setTimeout(()=>{p.classList.add("active");document.body.style.overflow="hidden"},1800);b.onclick=c;p.onclick=e=>{if(e.target===p)c()}})();
+</script>
+</body>
+</html>
